@@ -57,7 +57,7 @@ module.exports = {
             patterns:[
                 {
                     from: path.resolve(__dirname, 'public', '_redirects'),
-                    to: "_redirects/"
+                    to: ""
                 }
             ]
         })
