@@ -56,8 +56,8 @@ module.exports = {
         new CopyPlugin({
             patterns:[
                 {
-                    from: path.resolve(__dirname, 'public', '_redirects.txt'),
-                    to: "_redirects.txt"
+                    from: path.resolve(__dirname, 'public', '_redirects'),
+                    to: "_redirects/"
                 }
             ]
         })
