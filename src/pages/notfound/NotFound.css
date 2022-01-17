@@ -1,0 +1,27 @@
+.NotFound{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+.NotFound div{
+    display: flex;
+    flex-direction: column;
+    z-index: 2;
+    width: 400px;
+}
+.NotFound h1{
+    font-weight: bold;
+    font-size: 40px;
+}
+.NotFound p{
+    color: var(--very-light-pink);
+    font-size: var(--lg);
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+.primary-button{
+    width: 200px;
+    background-color: #8E44AD;
+}

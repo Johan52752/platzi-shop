@@ -1,0 +1,112 @@
+.shoping-car{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    background-color: white;
+    border-radius: 12px;
+    height: 92vh;
+    top: 61px;
+    margin:0 auto;
+    left: 0;
+}
+.shop-desktop{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+    border-bottom: 1px solid var(--very-light-pink);
+}
+.shop-desktop img{
+    width: 15px;
+    height: 12px;
+    margin-right: 20px;
+    object-fit: cover;
+    cursor: pointer;
+}
+.shop-desktop h1{
+    font-size: var(--lg);
+    font-weight: bold;
+}
+.shoping-car .order-grid{
+    width: 100%;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    height: 400px;
+}
+.shoping-car .orders-options{
+    height: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 90vw;
+}
+.button-card{
+    width: 100%;
+    height: 60px;
+    border-radius: 10px;
+    background-color: var(--hospital-green);
+    outline: none;
+    border:none;
+    color:white;
+    font-size: var(--lg);
+    font-weight: 700;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.orders-description{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.orders-description span:nth-child(1){
+    font-weight: bold;
+    font-size: var(--md);
+    color: var(--black);
+}
+.orders-description span:nth-child(2){
+    color:var(--very-light-pink);
+    font-size: var(--sm);
+
+}
+.orders-price{
+    font-weight: bold;
+    font-size: var(--md);
+    color: var(--black);
+}
+.orders-options{
+    width: 100%;
+    border-radius: 12px;
+    background-color: var(--text-input-field);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0px 12px 0px 12px;
+    height: 70px;
+}
+@media (min-width:620px) {
+    /* shoping car */
+    .shoping-car{
+        width: 360px;
+        left: auto;
+        right: 0;
+        top: 61px;
+        margin: 0;
+        height: 550px;
+        padding: 12px;
+    }
+    .shoping-car .order-grid{
+        height:70% ;
+    }
+    .shoping-car .orders-options{
+        height: 50px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 90%;
+    }
+}
